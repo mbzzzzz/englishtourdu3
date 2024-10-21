@@ -1,11 +1,7 @@
-pip install streamlit transformers
-pip install torch
-
-
-
 import streamlit as st
 import torch
 from transformers import MBart50TokenizerFast, MBartForConditionalGeneration
+
 
 # Load the fine-tuned model
 model_name = "abdulwaheed1/english-to-urdu-translation-mbart"
