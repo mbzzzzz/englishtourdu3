@@ -34,4 +34,3 @@ if st.button("Translate"):
     else:
         st.error("Please enter some English text to translate.")
 
-streamlit run app.py
